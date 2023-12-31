@@ -63,6 +63,12 @@ h1,h2,h3,h4,h5,h6,p{
     margin-left: 18px;
     border: none;
     color: #292929;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.screen-button{
+    display: none;
 }
 /* NAV PART END */
 /* BANNER PART START */

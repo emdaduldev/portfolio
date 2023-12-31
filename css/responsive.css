@@ -131,3 +131,189 @@
         transform: scale(0.9);
     }
 }
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .navbar {
+        background: #2E2C41;
+        padding-bottom: 10px;
+    }
+    .navbar .nav-item .nav-link::after {
+        display: none;
+    }
+    .navbar .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .navbar .nav-item button {
+        margin-left: 18px;
+        width: 80px;
+        height: 28px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .responsive-btn{
+        display: none;
+    }
+    .screen-button{
+        display: block;
+    }
+    .navbar-brand {
+        transform: scale(0.8);
+    }
+    .navbar-toggler {
+        background-color: #ABA9C1;
+        padding: 0px 5px 0px 5px;
+    }
+    .navbar-toggler-icon{
+        font-size: 18px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #banner {
+        padding-bottom: 25px;
+    }
+    .banner-text h3 {
+        font-size: 20px;
+        color: #fff;
+        padding-bottom: 20px;
+        padding-top: 44px;
+    }
+    .banner-text h1 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .banner-text h2 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .banner-text p {
+        font-size: 16px;
+        width: 295px;
+    }
+    .social-banner ul li a {
+        transform: scale(0.9);
+    }
+    .banner-text::before {
+        display: none;
+    }
+    .banner-text::after {
+        display: none;
+    }
+    .banner-ani {
+        position: relative;
+        display: none;
+    }
+    .cicle-ani {
+        display: none;
+    }
+    .banner-img .bg-img{
+        display: none;
+    }
+    .banner-img .port{
+        border-radius: 10px;
+        display: block;
+    }
+    #Project {
+        padding-bottom: 48px;
+    }
+    .project-box {
+        margin-top: 40px;
+    }
+    .project-title h3 {
+        font-size: 24px;
+        padding-bottom: 12px;
+    }
+    .project-title p::before {
+        top: 57%;
+        right: 14%;
+        height: 2px;
+        width: 96px;
+    }
+    .project-title p::after {
+        top: 57%;
+        left: 14%;
+        height: 2px;
+        width: 96px;
+    }
+    .project-text h3 {
+        font-size: 23px;
+    }
+    .project-text h4 {
+        width: 246px;
+    }
+    .txt-six {
+        margin-top: 17px;
+    }
+    #contact .project-title {
+        padding-bottom: 32px;
+    }
+    .contact-box .form-text {
+        width: 259px;
+        font-size: 14px;
+    }
+    .form-one {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .contact-box .form-mail {
+        margin-top: 10px;
+    }
+    .form-two {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-box .form-sub {
+        margin-top: 20px;
+    }
+    .contact-box {
+        padding-bottom: 0px;
+    }
+    .contact-icon ul {
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+    .contact-box .form-text {
+        width: 259px;
+        font-size: 14px;
+    }
+    .contact-box .form-mail {
+        width: 259px;
+        font-size: 14px;
+    }
+    .contact-box .form-msg {
+        height: 0px;
+        width: 259px;
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .contact-box .form-sub {
+        width: 259px;
+        font-size: 18px;
+    }
+    .contact-icon {
+        display: flex;
+        justify-content: center;
+    }
+    .contact-icon ul li{
+        transform: scale(0.7);
+    }
+    .contact-icon ul{
+      padding-left: 0;
+    }
+    .contact-icon ul li a {
+        margin-left: 0px;
+        justify-content: space-around;
+        transition: all linear 0.5s;
+    }
+    .footer-text h3 {
+        font-size: 14px;
+        width: 198px;
+        margin: 0 auto;
+        line-height: 20px;
+    }
+    .footer-text::after {
+        bottom: 80px;
+    }
+}
