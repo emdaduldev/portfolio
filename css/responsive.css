@@ -26,6 +26,12 @@
     .navbar-toggler:focus {
         box-shadow: none;
     }
+    .responsive-btn{
+        display: none;
+    }
+    .screen-button{
+        display: block;
+    }
     #banner {
         padding-bottom: 60px;
     }
