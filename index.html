@@ -5,26 +5,335 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>emdadulportfolio</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONTS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <section id="loading" >
-       <div class="container">
-        <div class="row">
-            <div class="col-lg-6 m-auto">
-                <div class="one text-center">
-                    <h1 class="load"> Portfolio loading 
-                        <span style="--i:1;">.</span>
-                <span style="--i:2;">.</span>
-                <span style="--i:3;">.</span>
-                    </h1>
+    <!-- NAVBAR PART START -->
+     <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="emdadul-logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#Project">Project</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#contact">Contact</a></li>
+              <li class="nav-item  m-auto"><a href="#"><button>Resume</button></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- NAVBAR PART END -->
+      <!-- BANNER PART START -->
+      <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="banner-text">
+                        <h3>Hello There!</h3>
+                        <h1>I’m Emdadul Rahman</h1>
+                        <h2>Frontend Web Developer</h2>
+                        <p>Welcome to my portfolio! I am Emdadul Rahman, a passionate and creative Frontend Web Designer dedicated to crafting visually appealing and user-friendly websites. With a keen eye for design aesthetics and a commitment to delivering seamless user experiences, I have been shaping the digital landscape with my skills and expertise.</p>
+                    </div>
+                    <div class="social-banner">
+                      <ul>
+                        <li><a class="hover-one" href="#"><i class="fa-brands fa-facebook-f"></i></a><div class="social-one"><p>Facebook</p></div></li>
+                        <li><a class="hover-two" href="#"><i class="fa-brands fa-twitter"></i></a> <div class="social-two"><p>Twitter</p></div></li>
+                        <li><a class="hover-three" href="#"><i class="fa-brands fa-instagram"></i></a> <div class="social-three"><p>Instagram</p></div></li>
+                        <li><a class="hover-four" href="#"><i class="fa-brands fa-linkedin-in"></i></a><div class="social-four"><p>Linkedin</p></div></li>
+                      </ul>
+                     
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="banner-ani">
+                    <div class="cicle-ani"></div>
+                  </div>
+                  <div class="banner-bg">
+                    <div class="banner-img">
+                      <img src="images/banner-img.png" class="bg-img" alt="banner-img">
+                      <img src="images/port-img.jpg" class="port" alt="port-img">
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
-       </div>
-    </section>
+      </section>
+      <!-- BANNER PART END -->
+      <!-- PROJECT PART START -->
+      <section id="Project">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 m-auto text-center">
+              <div class="project-title">
+                <h3>MY PROJECTS</h3>
+                <p>□</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="project-box">
+              <div class="project-img">
+                <a href="#"><img src="images/constraction-project.png" alt="constraction-project"></a>
+              </div>
+              <div class="project-wrapper">
+                <div class="project-text">
+                  <h3>Construction</h3>
+                  <h4><span class="box">□</span>This is a Front end web site which is
+                    created by html, css, bootstrap js & jquery.</h4>
+                    <h5><span class="box">□</span>It is a responsive website, you can use
+                      major three devices such as
+                      Mobile, Tab and Desktop.</h5>
+                </div>
+                <div class="skills-box">
+                  <div class="txt-one"><p>HTML</p></div>
+                  <div class="txt-two"><p>CSS</p></div>
+                  <div class="txt-three"><p>JS</p></div>
+                </div>
+                <div class="skills-box1">
+                  <div class="txt-four"><p>JQUERY</p></div>
+                  <div class="txt-five"><p>BOOTSTRAP</p></div>
+                </div>
+                <div class="skills-box2">
+                  <div class="txt-six">
+                    <a href="#"><button><p>github</p>
+                      <i class="fa-brands fa-github"></i></button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="project-box">
+              <div class="project-img">
+                <a href="#"><img src="images/hunt-project.png" alt="hunt-project"></a>
+              </div>
+              <div class="project-wrapper">
+                <div class="project-text">
+                  <h3>HUNT</h3>
+                  <h4><span class="box">□</span>This is a Front end web site which is
+                    created by html, css, bootstrap js & jquery.</h4>
+                    <h5><span class="box">□</span>It is a responsive website, you can use
+                      major three devices such as
+                      Mobile, Tab and Desktop.</h5>
+                </div>
+                <div class="skills-box">
+                  <div class="txt-one"><p>HTML</p></div>
+                  <div class="txt-two"><p>CSS</p></div>
+                  <div class="txt-three"><p>JS</p></div>
+                </div>
+                <div class="skills-box1">
+                  <div class="txt-four"><p>JQUERY</p></div>
+                  <div class="txt-five"><p>BOOTSTRAP</p></div>
+                </div>
+                <div class="skills-box2">
+                  <div class="txt-six">
+                    <a href="#"><button><p>github</p>
+                      <i class="fa-brands fa-github"></i></button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="project-box">
+              <div class="project-img">
+                <a href="#"><img src="images/agenc-project.png" alt="agenc-project"></a>
+              </div>
+              <div class="project-wrapper">
+                <div class="project-text">
+                  <h3>AGENC</h3>
+                  <h4><span class="box">□</span>This is a Front end web site which is
+                    created by html, css, bootstrap js & jquery.</h4>
+                    <h5><span class="box">□</span>It is a responsive website, you can use
+                      major three devices such as
+                      Mobile, Tab and Desktop.</h5>
+                </div>
+                <div class="skills-box">
+                  <div class="txt-one"><p>HTML</p></div>
+                  <div class="txt-two"><p>CSS</p></div>
+                  <div class="txt-three"><p>JS</p></div>
+                </div>
+                <div class="skills-box1">
+                  <div class="txt-four"><p>JQUERY</p></div>
+                  <div class="txt-five"><p>BOOTSTRAP</p></div>
+                </div>
+                <div class="skills-box2">
+                  <div class="txt-six">
+                    <a href="#"><button><p>github</p>
+                      <i class="fa-brands fa-github"></i></button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="project-box">
+              <div class="project-img">
+                <a href="#"><img src="images/ecommerce.png" alt="ecommerce"></a>
+              </div>
+              <div class="project-wrapper">
+                <div class="project-text">
+                  <h3>Ecommerce</h3>
+                  <h4><span class="box">□</span>This is a Front end web site which is created by html, css, bootstrap js & jquery.</h4>
+                    <h5><span class="box">□</span>It is a responsive website, you can use
+                      major three devices such as
+                      Mobile, Tab and Desktop.</h5>
+                </div>
+                <div class="skills-box">
+                  <div class="txt-one"><p>HTML</p></div>
+                  <div class="txt-two"><p>CSS</p></div>
+                  <div class="txt-three"><p>JS</p></div>
+                </div>
+                <div class="skills-box1">
+                  <div class="txt-four"><p>JQUERY</p></div>
+                  <div class="txt-five"><p>BOOTSTRAP</p></div>
+                </div>
+                <div class="skills-box2">
+                  <div class="txt-six">
+                    <a href="#"><button><p>github</p>
+                      <i class="fa-brands fa-github"></i></button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="project-box">
+              <div class="project-img">
+                <a href="#"><img src="images/qwery.png" alt="qwery"></a>
+              </div>
+              <div class="project-wrapper">
+                <div class="project-text">
+                  <h3>QWERy</h3>
+                  <h4><span class="box">□</span> This is a Front end web site which is created by html, tailwind css, react js.</h4>
+                    <h5><span class="box">□</span>It is a responsive website, you can use
+                      major three devices such as
+                      Mobile, Tab and Desktop.</h5>
+                </div>
+                <div class="skills-box">
+                  <div class="txt-one"><p>HTML</p></div>
+                  <div class="txt-two"><p>tailwind css</p></div>
+                </div>
+                <div class="skills-box1">
+                  <div class="txt-four"><p>React</p></div>
+                  <div class="txt-three"><p>JS</p></div>
+                </div>
+                <div class="skills-box2">
+                  <div class="txt-six">
+                    <a href="#"><button><p>github</p>
+                      <i class="fa-brands fa-github"></i></button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="project-box">
+              <div class="project-img">
+                <a href="#"><img src="images/petroil.png" alt="petroil"></a>
+              </div>
+              <div class="project-wrapper">
+                <div class="project-text">
+                  <h3>Petroilo</h3>
+                  <h4><span class="box">□</span>This is a Front end web site which is
+                    created by html, css, bootstrap js & jquery.</h4>
+                    <h5><span class="box">□</span>It is a responsive website, you can use
+                      major three devices such as
+                      Mobile, Tab and Desktop.</h5>
+                </div>
+                <div class="skills-box">
+                  <div class="txt-one"><p>HTML</p></div>
+                  <div class="txt-two"><p>CSS</p></div>
+                  <div class="txt-three"><p>JS</p></div>
+                </div>
+                <div class="skills-box1">
+                  <div class="txt-four"><p>JQUERY</p></div>
+                  <div class="txt-five"><p>BOOTSTRAP</p></div>
+                </div>
+                <div class="skills-box2">
+                  <div class="txt-six">
+                    <a href="#"><button><p>github</p>
+                      <i class="fa-brands fa-github"></i></button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PROJECT PART END -->
+      <!-- CONTACT ME PART START -->
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 m-auto text-center">
+              <div class="project-title">
+                <h3>CONTACT ME!</h3>
+                <p>□</p>
+            </div>
+          </div>
+          </div>
+          <div class="row">
+            <div class="container">
+              <div class="col-lg-10 m-auto">
+                <div class="contact-box text-center">
+                  <form class="form-one">
+                    <input type="text" class="form-text" placeholder="Your name">
+                    <input type="email" class="form-mail" placeholder="Your email">
+                  </form>
+                  <form class="form-two">
+                    <input type="text"class="form-msg" placeholder="Your message">
+                    <button type="submit" class="form-sub">Send</button>
+                  </form>
+                  <div class="contact-icon">
+                    <ul>
+                      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT ME PART END -->
+      <!-- FOOTER PART START -->
+      <section id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 m-auto text-center">
+              <div class="footer-text">
+                <h3>Designed by Emdadul Rahman || All Rights Reserved</h3>
+              </div>
+            </div>
+          </div>
+        </div>
 
+      </section>
+      <!-- FOOTER PART END -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>

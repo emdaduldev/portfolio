@@ -1,0 +1,103 @@
+font-family: 'Poppins', sans-serif;
+font-family: 'Inria Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+
+https://www.figma.com/file/ZS3Xx0ePW6vzz5vEPKquoU/Untitled?type=design&node-id=0-1&mode=design&t=eyzYUWQi9MyMaQpE-0
+
+
+---     ANIMATION ----
+ .banner .round-shape{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #FFABBA;
+    border-radius: 50%;
+    position: absolute;
+    top: 48px;
+    left: 500px;
+    animation: rotate 4s infinite linear;
+}
+
+.banner .round-shape .inner-shape{
+    height: 20px;
+    width: 20px;
+    background-color: #FFABBA;
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    border-radius: 50%;
+    
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+---     ANIMATION ----
+
+
+
+
+
+
+
+
+
+
+<section id="loading" >
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-6 m-auto">
+                <div class="one text-center">
+                    <h1 class="load"> Portfolio loading 
+                        <span style="--i:1;">.</span>
+                <span style="--i:2;">.</span>
+                <span style="--i:3;">.</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+
+.one{
+    height: 500px;
+}
+.one h1{
+    margin-top: 250px;
+    font-size: 50px;
+    color: #f8901a;
+    display: inline-block;
+    background: #747272;
+    padding: 25px 10px;
+    border-radius: 10px;
+}
+.load span{
+	position:relative;
+	display:inline-block;
+	color:#f8901a;
+	animation:animate 1s ease-in-out infinite;
+	animation-delay:calc(0.1s * var(--i));
+}
+@keyframes animate
+{
+	0%
+	{
+		transform:translateY(0px);
+	}
+	20%
+	{
+		transform:translateY(-10px);
+	}
+	40%,100%
+	{
+		transform:translateY(0px);
+	}
+}
